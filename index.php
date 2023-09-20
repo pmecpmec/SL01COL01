@@ -27,7 +27,14 @@
 
 
     
-    echo "<h1>My name is $person[firstName] </h1>";
+    echo "<h1>My name is $person[firstName] $person[secondName] $person[lastName] </h1>";
+    echo "<h2>My hobbies are $hobbies[sports] and $hobbies[gaming] </h2>";
+    echo "<h3>I have $pets[pets] named $pets[petsName] </h3>";
+    echo "<h4>My favorite food is $favorites[favoriteFood] </h4>";
+    echo "<h5>My favorite music genre is $favorites[favoriteMusicGenre] </h5>";
+    echo "<h6>My favorite series is $favorites[favoriteSeries] </h6>";
+    echo "<h7>My favorite video game is $favorites[favoriteVideoGame] </h7>";
+    
 
 
   ?>
